@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div id="logo">
+            <a href="../index.html"><img src="logo (2).png" alt=""></a>
+            <a href="../index.html"><p><i>RG Consultancy Services</i>s</p></a>
+        </div>
+        <div class="center">
+            <a href="../index.html" class="link">Home</a>
+            <a href="#about" class="link">About</a>
+            <div class="dropdown">
+                <a href="#serv" class="link">Services</a>
+                <div class="dropdown-menu">
+                    <a href="../Brand_Consultant/index.html">Brand Building</a>
+                    <a href="../Fintech_Consultant/index.html">Fintech Solutions</a>
+                    <a href="../Research_Consultant/index.html">Research Advisory</a>
+                    <a href="../Technology_Consultant/index.html">Technology Solutions</a>
+                </div>
+            </div> 
+            <a href="index.html" class="link">Products</a>         
+        </div>
+        <div class="user">
+            <div class="slot">
+                <button onclick="window.location.href='http://localhost:3500'">REQUEST A QUOTE</button>
+            </div>
+            <div class="insta">
+                <img src="insta.png" alt="insta">
+            </div>
+            <div class="face">
+                <img src="fb.png" alt="facebook">
+            </div>
+            <div class="linkd">
+                <img src="linkdin.png" alt="linkdin">
+            </div>
+        </div>
+    </div>
+
+    <h2 class="section-title-tell">Our Partners</h2>
+    <div class="container">
+        <div class="div1 card">
+            <img src="Conferance.jpg" alt="">
+            <div class="content">
+                <h1>RGCMS- Conference Management System</h1>
+                <p>Our Conference Management Solution is a unique & complete AI based Solution that facilitates from Conference Inception to papers review process, similarity analysis to organise Conference Sessions, major features of our product are: 
+                    <ul>
+                        <li>Paper Submission & Review
+                        </li>
+                        <li>Registration & Copyright Management</li>
+                        <li>Virtual Meeting tools for Conference Conduction</li>
+                        <li>Session Planning & scheduling </li>
+                        <li>Proceeding Compilation</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="div2 card">
+            <img src="Map.jpg" alt="">
+            <div class="content">
+                <h1>RGMaps-Personalised Map for your business</h1>
+                <p>Our solution for Personalized Map for your Business Venue helps you with to facilitate your customers with details to traverse your whole campus & also to ensures you to trace their entry & movement, major features of our product are:
+                    <ul>
+                        <li>Secure Entry of Customers with Video & Document Verification
+                        </li>
+                        <li>QR based access to customers with map of your landscape to approach various locations</li>
+                        <li>Seamless movement of guest on all important locations of your venue</li>
+                        <li>GPS based Tracking of Guest movement in the space</li>
+                        <li>360 degree view of your campus as added feature</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="div5 card">
+            <img src="Hack.jpg" alt="">
+            <div class="content">
+                <h1>RGHACKS-Hackathan Management System</h1>
+                <p>Our Hackathon Management System helps you conduct your pre-hackathon & jury work during hackathon with 100% transparency & no-paper usage and gives good space to your sponsors too, major features of our product are:
+                    <ul>
+                        <li>Problem Statement & Sponsor Listing
+                        </li>
+                        <li>Team Registrations & suggested solution submission</li>
+                        <li>Project Submission by all teams on platform for jury
+                        </li>
+                        <li>GPS based Tracking of Guest movement in the space</li>
+                        <li>Final round 3-step jury & result declaration</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="div6 card">
+            <img src="chat.jpg" alt="">
+            <div class="content">
+                <h1>RGBot- ChatBot for your Business</h1>
+                <p>our AI enabled Whatsapp Bot is product that makes your business approach easier for your customers, it is platform that saves cost of call center & public information of your business will be on customers palm, major features of our product are:
+                    <ul>
+                        <li>Customer Chat with AI to fetch business info
+                        </li>
+                        <li>Schedule appointments for customers through AI
+                        </li>
+                        <li>Recommend services to user with humanity
+                        </li>
+                        <li>Get Reports & Tracking of customers for regular monitoring</li>
+                        <li>Personalized messaging for Customer engagement</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-form">
+        <div class="brand-bar"></div>
+        
+        <div class="form-container">
+            
+            <h2 class="section-title-tell">Book a demo</h2>
+            <form id="quote-form" action="/book" method="POST">
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-group">
+                            <label for="name">Full Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-group">
+                            <label for="email">Email Address <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="your.email@company.com" required>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your contact number">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="budget">Products</label>
+                    <select id="budget" name="budget">
+                        <option value="" disabled selected>Select your Product </option>
+                        <option value="RGCMS- Conference Management System">RGCMS- Conference Management System</option>
+                        <option value="RGMaps-Personalised Map for your business">RGMaps-Personalised Map for your business</option>
+                        <option value="RGHACKS-Hackathan Management System">RGHACKS-Hackathan Management System</option>
+                        <option value="RGBot- ChatBot for your Business">RGBot- ChatBot for your Business</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="goals">Let's know about the reason<span class="required">*</span></label>
+                    <textarea id="message" name="message" placeholder="What specific outcomes are you looking to achieve?" required></textarea>
+                </div>
+                
+                <div class="brand-promise">
+                    <div class="promise-item">
+                        <div class="promise-icon">&#128336;</div>
+                        <div class="promise-title">Quick Response</div>
+                        <div class="promise-desc">We'll respond within 24 hours</div>
+                    </div>
+                    <div class="promise-item">
+                        <div class="promise-icon">&#129309;</div>
+                        <div class="promise-title">Expert Team</div>
+                        <div class="promise-desc">Industry leading consultants</div>
+                    </div>
+                    <div class="promise-item">
+                        <div class="promise-icon">&#128200;</div>
+                        <div class="promise-title">Proven Results</div>
+                        <div class="promise-desc">Measurable ROI focus</div>
+                    </div>
+                </div>
+                
+                <button type="submit">Request Your Customized Proposal</button>
+                
+                <div class="form-footer">
+                    <p>&#128274; Your information is secure and confidential</p>
+                    <p>Questions? Contact us at <strong>support@rgcs.co.in</strong></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="links">
+        <div class="usef"> 
+            <h1>Services</h1>
+            <ul>
+                <li><a href="../Brand_Consultant/index.html">Brand Building</a></li>
+                <li><a href="../Fintech_Consultant/index.html">Fintech Solutions</a></li>
+                <li><a href="../Research_Consultant/index.html">Research Advisory</a></li>
+                <li><a href="../Technology_Consultant/index.html">Technology Solutions</a></li>
+            </ul>
+        </div>
+        <div class="social"> 
+            <h1>Social Media links</h1>
+            <ul>
+                <li><a href="../Blog/index.html" class="link">Blogs</a></li>
+                <li><a href="../Career/index.html" class="link">Careers</a></li>
+                <li><a href="../Mentors/index.html" class="link">Our Mentors</a></li>
+            </ul>
+        </div>
+        <div class="div3">
+            <!-- <h2>Contact Us:</h2>  -->
+        </div>
+        <div class="log">
+            <img src="../logo (3).png" alt="">   
+        </div>
+    </div>
+</body>
+</html>
